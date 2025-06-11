@@ -25,12 +25,12 @@ const News = () => {
       try {
         setLoading(true);
         const response = await axios.get(
-          "https://newsapi.org/v2/top-headlines?country=us&apiKey=60b99d1db4f8456795dbc8090b66659a",
+          "https://newsapi.org/v2/top-headlines?country=us&apiKey=6da8c7dffa7f6caa6e8ff38feabdf55e",
           {
             params: {
               country: "in",
               category: category,
-              apiKey: "60b99d1db4f8456795dbc8090b66659a",
+              apiKey: "6da8c7dffa7f6caa6e8ff38feabdf55e",
               pageSize: 12,
             },
           }
