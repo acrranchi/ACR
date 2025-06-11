@@ -12,4 +12,9 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  base: '/ACR/', // Relative paths for GitHub Pages
+  build: {
+    outDir: 'dist', // Explicitly set output directory
+    emptyOutDir: true, // Clean the directory before build
+  }
 })

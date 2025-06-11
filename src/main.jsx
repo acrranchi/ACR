@@ -7,7 +7,7 @@ import Services from "./pages/Services.jsx";
 import News from "./pages/News.jsx"; // Added missing import
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/ACR">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/about-us" element={<AboutUs />} /> {/* Fixed typo */}
