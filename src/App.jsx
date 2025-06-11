@@ -93,7 +93,7 @@ function App() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 px-6 max-w-6xl w-full">
-            <div className="rotate-5  duration-300 bg-gray-900/50 p-5 rounded-xl border border-cyan-400/30 transition-all">
+            <div className="hover:rotate-5  duration-300 bg-gray-900/50 p-5 rounded-xl border border-cyan-400/30 transition-all">
               <div className="text-cyan-400 text-2xl mb-2">🖥️</div>
               <h3 className="font-semibold text-lg mb-2">Computer Services</h3>
               <p className="text-gray-300 text-sm">
@@ -101,7 +101,7 @@ function App() {
               </p>
             </div>
 
-            <div className="rotate-5 bg-gray-900/50 p-5 rounded-xl border border-cyan-400/30 transition-all duration-300">
+            <div className="hover:rotate-5 bg-gray-900/50 p-5 rounded-xl border border-cyan-400/30 transition-all duration-300">
               <div className="text-cyan-400 text-2xl mb-2">📹</div>
               <h3 className="font-semibold text-lg mb-2">Security Systems</h3>
               <p className="text-gray-300 text-sm">
@@ -109,7 +109,7 @@ function App() {
               </p>
             </div>
 
-            <div className="rotate-5  duration-300 bg-gray-900/50 p-5 rounded-xl border border-cyan-400/30 transition-all">
+            <div className="hover:rotate-5  duration-300 bg-gray-900/50 p-5 rounded-xl border border-cyan-400/30 transition-all">
               <div className="text-cyan-400 text-2xl mb-2">☀️</div>
               <h3 className="font-semibold text-lg mb-2">Solar Solutions</h3>
               <p className="text-gray-300 text-sm">
