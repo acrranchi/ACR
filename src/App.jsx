@@ -37,10 +37,7 @@ function App() {
         {/* Overlay Content - perfectly matched to video size */}
         <div
           className={` bg-gradient-to-br from-blue-900/60 to-gray-900/60 absolute inset-0 w-full h-full flex flex-col justify-center items-center
-       backdrop-blur-sm transition-opacity duration-300
-        ${isHovering ? "opacity-100" : "opacity-0"}`}
-          onMouseEnter={() => setIsHovering(true)}
-          onMouseLeave={() => setIsHovering(false)}
+       backdrop-blur-sm transition-opacity duration-300`}
         >
           <h2 className="text-cyan-400 text-center sm:text-5xl text-3xl font-bold flex flex-wrap mt-10">
             ADVANCED COMPUTER RESOURCES
@@ -64,7 +61,7 @@ function App() {
                 className="hover:shadow-[2px_2px_5px_rgba(248,113,113,0.5)] 
               rounded-xl backdrop-blur-sm transition-all duration-300 
               items-center flex flex-col justify-center bg-gray-700/50 gap-2 p-4
-              hover:scale-105 w-50 "
+              scale-105 w-50 "
               >
                 <img
                   src={item.img}
@@ -80,7 +77,7 @@ function App() {
 
       {/* <Slider/> */}
       <div className="text-white">
-        <div className="flex flex-col rounded-2xl bg-gradient-to-br from-blue-900/60 to-gray-900/60 gap-2 min-h-[200px] justify-center items-center m-4 py-10 md:m-10 backdrop-blur-lg border border-gray-700/50 shadow-2xl shadow-blue-900/20 hover:shadow-blue-900/30 transition-all duration-300">
+        <div className="flex flex-col rounded-2xl bg-gradient-to-br from-blue-900/60 to-gray-900/60 gap-2 min-h-[200px] justify-center items-center m-4 py-10 md:m-10 backdrop-blur-lg border border-gray-700/50 shadow-2xl shadow-blue-900/30 transition-all duration-300">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300">
             Your Complete Technology Solution
           </h2>
@@ -96,7 +93,7 @@ function App() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 px-6 max-w-6xl w-full">
-            <div className="hover:rotate-5  duration-300 bg-gray-900/50 p-5 rounded-xl border border-gray-800 hover:border-cyan-400/30 transition-all">
+            <div className="rotate-5  duration-300 bg-gray-900/50 p-5 rounded-xl border border-cyan-400/30 transition-all">
               <div className="text-cyan-400 text-2xl mb-2">🖥️</div>
               <h3 className="font-semibold text-lg mb-2">Computer Services</h3>
               <p className="text-gray-300 text-sm">
@@ -104,7 +101,7 @@ function App() {
               </p>
             </div>
 
-            <div className="hover:rotate-5 bg-gray-900/50 p-5 rounded-xl border border-gray-800 hover:border-cyan-400/30 transition-all duration-300">
+            <div className="rotate-5 bg-gray-900/50 p-5 rounded-xl border border-cyan-400/30 transition-all duration-300">
               <div className="text-cyan-400 text-2xl mb-2">📹</div>
               <h3 className="font-semibold text-lg mb-2">Security Systems</h3>
               <p className="text-gray-300 text-sm">
@@ -112,7 +109,7 @@ function App() {
               </p>
             </div>
 
-            <div className="hover:rotate-5  duration-300 bg-gray-900/50 p-5 rounded-xl border border-gray-800 hover:border-cyan-400/30 transition-all">
+            <div className="rotate-5  duration-300 bg-gray-900/50 p-5 rounded-xl border border-cyan-400/30 transition-all">
               <div className="text-cyan-400 text-2xl mb-2">☀️</div>
               <h3 className="font-semibold text-lg mb-2">Solar Solutions</h3>
               <p className="text-gray-300 text-sm">
@@ -126,7 +123,7 @@ function App() {
           </p>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
