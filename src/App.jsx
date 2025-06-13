@@ -19,65 +19,56 @@ function App() {
     >
       <Navbar />
 
-      <div className="relative w-full h-[75vh] p-10">
-        {" "}
-        {/* Container with fixed aspect ratio */}
-        {/* Video element */}
-        <video
-          className="absolute inset-0 w-full h-full object-cover"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="metadata"
-          disablePictureInPicture
-        >
-          <source src="src/assets/intelvid.mp4" type="video/mp4" />
-        </video>
-        {/* Overlay Content - perfectly matched to video size */}
+      <div className="relative w-full h-[90vh] md:h-[75vh]">
+  {/* Remove p-10 from container and add to inner elements as needed */}
+  <img
+    src="https://imgs.search.brave.com/aTagfvlnKrjo6FBDi4XAQT1KT3VeBxbVkPUwpNVyEG0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvNGst/cHJvY2Vzc29yLTM1/NTUteC0yMDAwLXdh/bGxwYXBlci10bDQ2/emVoeTM5bm45ZHQ4/LmpwZw"
+    className="md:absolute inset-0 w-full md:h-full object-cover"
+  />
+  <div
+    className="md:absolute inset-0 w-full bg-gradient-to-br from-blue-900/50 to-gray-900/40  md:w-1/2 md:h-full flex flex-col justify-center items-center
+     backdrop-blur-sm transition-all duration-300 md:p-0 p-5 mt-5 md:mt-0"
+  >
+    <h2 className="text-cyan-400 text-center text-2xl sm:text-4xl md:text-5xl font-bold flex flex-wrap mt-4 md:mt-10">
+      ADVANCED COMPUTER RESOURCES
+    </h2>
+    <h2 className="text-white font-bold text-xl sm:text-2xl md:text-3xl p-1 mt-2 md:mt-5">
+      Where Tech Meets Trust.
+    </h2>
+    <p className="text-white text-base sm:text-xl md:text-2xl lg:text-3xl max-w-4xl text-center p-2 md:p-4 mt-4 sm:mt-10 md:mt-20">
+      A high-level Quality Control in compliance with National and
+      International regulations and standards.
+    </p>
+    <div className="flex gap-2 sm:gap-4 md:gap-8 p-2 md:p-4 mt-2 md:mt-4 flex-wrap justify-center w-full">
+      {[
+        { img: logoser, title: "VISION" },
+        { img: logodim, title: "VALUES" },
+        { img: logomis, title: "MISSION" },
+      ].map((item, index) => (
         <div
-          className={` bg-gradient-to-br from-blue-900/60 to-gray-900/60 absolute inset-0 w-full h-full flex flex-col justify-center items-center
-       backdrop-blur-sm transition-opacity duration-300`}
+          key={index}
+          className="hover:shadow-[2px_2px_5px_rgba(248,113,113,0.5)] 
+          rounded-xl backdrop-blur-sm transition-all duration-300 
+          items-center flex flex-col justify-center bg-gray-700/50 gap-1 md:gap-2 p-2 md:p-4
+          scale-100 hover:scale-105 w-24 sm:w-28 md:w-32 lg:w-40"
         >
-          <h2 className="text-cyan-400 text-center sm:text-5xl text-3xl font-bold flex flex-wrap mt-10">
-            ADVANCED COMPUTER RESOURCES
-          </h2>
-          <h2 className="text-white font-bold sm:text-3xl text-2xl p-1 m-1">
-            Where Tech Meets Trust.
-          </h2>
-          <p className="text-white text-2xl md:text-3xl max-w-4xl text-center p-4 mt-20">
-            A high-level Quality Control in compliance with National and
-            International regulations and standards.
-          </p>
-
-          <div className="flex gap-8 p-4 mt-4 flex-wrap justify-center">
-            {[
-              { img: logoser, title: "VISION" },
-              { img: logodim, title: "VALUES" },
-              { img: logomis, title: "MISSION" },
-            ].map((item, index) => (
-              <div
-                key={index}
-                className="hover:shadow-[2px_2px_5px_rgba(248,113,113,0.5)] 
-              rounded-xl backdrop-blur-sm transition-all duration-300 
-              items-center flex flex-col justify-center bg-gray-700/50 gap-2 p-4
-              scale-105 w-50 "
-              >
-                <img
-                  src={item.img}
-                  alt=""
-                  className="h-20 rounded-2xl hover:animate-bounce"
-                />
-                <h1 className="text-white text-2xl">{item.title}</h1>
-              </div>
-            ))}
-          </div>
+          <img
+            src={item.img}
+            alt=""
+            className="h-10 sm:h-14 md:h-16 lg:h-20 rounded-2xl hover:animate-bounce"
+          />
+          <h1 className="text-white text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">
+            {item.title}
+          </h1>
         </div>
-      </div>
+      ))}
+    </div>
+  </div>
+</div>
 
       {/* <Slider/> */}
       <div className="text-white">
-        <div className="flex flex-col rounded-2xl bg-gradient-to-br from-blue-900/60 to-gray-900/60 gap-2 min-h-[200px] justify-center items-center m-4 py-10 md:m-10 backdrop-blur-lg border border-gray-700/50 shadow-2xl shadow-blue-900/30 transition-all duration-300">
+        <div className="flex flex-col rounded-2xl bg-gradient-to-br from-blue-900/60 to-gray-900/60 gap-2 min-h-[200px] justify-center items-center m-4 py-10 md:m-10 transition-all duration-300">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300">
             Your Complete Technology Solution
           </h2>

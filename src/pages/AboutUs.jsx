@@ -14,7 +14,7 @@ function AboutUs() {
       <Navbar />
 
       <div className="flex p-5 m-2 justify-center">
-        <div className="rounded-2xl flex items-center p-6 justify-evenly  gap-10 flex-wrap">
+        <div className="rounded-2xl flex items-center w-screen p-6 justify-evenly gap-10 flex-wrap">
           <p className="text-white font-semibold text-2xl w-lg text-center hover:text-cyan-400 duration-500 transition">
             Empowering Your Digital World with Trusted Tech Solutions
           </p>
@@ -25,8 +25,6 @@ function AboutUs() {
           />
         </div>
       </div>
-
-      <Slider />
 
       <div className="w-full">
         <div className="bg-gradient-to-br from-blue-900/60 to-gray-900/60 rounded-2xl flex m-5 flex-col items-center p-6 justify-evenly gap-10 flex-wrap">
@@ -44,17 +42,17 @@ function AboutUs() {
               <p className="text-xl sm:text-2xl mb-2">Core Values</p>
               <li className="text-sm sm:text-base">
                 {" "}
-                 - Expertise – Certified professionals with 14 years of
+                - Expertise – Certified professionals with 14 years of
                 experience.
               </li>
               <li className="text-sm sm:text-base">
-                 - Integrity – Honest pricing, no hidden fees.
+                - Integrity – Honest pricing, no hidden fees.
               </li>
               <li className="text-sm sm:text-base">
-                 - Innovation – Stay ahead with the latest tech.
+                - Innovation – Stay ahead with the latest tech.
               </li>
               <li className="text-sm sm:text-base">
-                 - Customer-Centric – 24/7 support and tailored solutions.
+                - Customer-Centric – 24/7 support and tailored solutions.
               </li>
             </ul>
           </div>
@@ -78,7 +76,8 @@ function AboutUs() {
           </p>
         </div>
       </div>
-      <Footer/>
+      <Slider />
+      <Footer />
     </div>
   );
 }

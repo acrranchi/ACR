@@ -43,7 +43,7 @@ function Navbar() {
             <Link to="/services">Services</Link>
           </li>
           <li className="hover:text-sky-400 transition-all cursor-pointer duration-300">
-            <Link to="/news">News & Events</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </div>
@@ -64,8 +64,8 @@ function Navbar() {
             </Link>
           </li>
           <li className="hover:text-sky-400 transition-all cursor-pointer duration-300">
-            <Link to="/news" onClick={() => setIsOpen(false)}>
-              News & Events
+            <Link to="/contact" onClick={() => setIsOpen(false)}>
+              Contact
             </Link>
           </li>
         </ul>

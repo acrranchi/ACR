@@ -96,8 +96,8 @@ function SliderHero() {
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                       </CardContent>
-                      <div className="absolute bottom-0 left-0 p-6 text-white">
-                        <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+                      <div className="absolute bottom-0.5 left-0 p-2 md:p-4 text-white">
+                        <h3 className="md:text-xl font-semibold md:font-bold md:mb-2">{item.title}</h3>
                         <p className="text-sm opacity-90">{item.description}</p>
                         <div className="w-full">
                           <Drawer>

@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 import AboutUs from "./pages/AboutUs.jsx";
 import Services from "./pages/Services.jsx";
-import News from "./pages/News.jsx"; // Added missing import
+import Contact from "./pages/Contact.jsx"; // Added missing import
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter basename="/ACR">
@@ -12,7 +12,7 @@ createRoot(document.getElementById("root")).render(
       <Route path="/" element={<App />} />
       <Route path="/about-us" element={<AboutUs />} /> {/* Fixed typo */}
       <Route path="/services" element={<Services />} />
-      <Route path="/news" element={<News />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   </BrowserRouter>
 );

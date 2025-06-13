@@ -54,10 +54,10 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    to="/news"
+                    to="/contact"
                     className="hover:text-cyan-400 transition-colors"
                   >
-                    News
+                    Contact
                   </Link>
                 </li>
               </ul>
@@ -110,9 +110,9 @@ function Footer() {
               <address className="not-italic items-start space-y-2 flex flex-col">
                 <p className="flex items-start gap-2">
                   <HiOutlineLocationMarker />
-                  New Alkapuri Dibdhi Bypass Road
+                  New Alkapuri Dibdhi Bypass Road,
                   <br />
-                  Ranchi, Jharkhand, 834001
+                  Ranchi-834001 - Jharkhand
 
                 </p>
                 <p className="flex gap-2 items-center justify-center"><MdOutlineMailOutline />
