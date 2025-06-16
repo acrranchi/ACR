@@ -16,7 +16,7 @@ function Contact() {
       <Navbar />
       <div className="flex flex-wrap justify-center items-center gap-15 my-20 mx-2">
         <div className="bg-gradient-to-br from-blue-900/60 to-gray-900/60 rounded-2xl text-white items-start flex m-5 flex-col  p-6 justify-evenly gap-5 flex-wrap">
-          <p className="font-bold text-3xl">Visit Us</p>
+          <p className="font-bold text-3xl text-cyan-400">Visit Us</p>
 
           <a
             href="https://www.google.com/maps/place/Advanced+Computer+Resources/@23.3349007,85.3012201,129m/data=!3m1!1e3!4m14!1m7!3m6!1s0x39f4e1fd04d190eb:0x646fb17c29289ad!2sAdvanced+Computer+Resources!8m2!3d23.3351322!4d85.3014243!16s%2Fg%2F11fsw5y2gj!3m5!1s0x39f4e1fd04d190eb:0x646fb17c29289ad!8m2!3d23.3351322!4d85.3014243!16s%2Fg%2F11fsw5y2gj?entry=ttu&g_ep=EgoyMDI1MDYxMC4xIKXMDSoASAFQAw%3D%3D"
@@ -27,14 +27,14 @@ function Contact() {
               New Alkapuri Dibdhi Bypass Road, Ranchi-834002 - Jharkhand
             </p>
           </a>
-          <p className="font-bold text-3xl">Email Us</p>
+          <p className="font-bold text-3xl text-cyan-400">Email Us</p>
           <a href="mailto:acrranchi@gmail.com">
             <p className="flex gap-2 items-center text-xl">
               <MdOutlineMailOutline />
               acrranchi@gmail.com
             </p>
           </a>
-          <p className="font-bold text-3xl">Call Us</p>
+          <p className="font-bold text-3xl text-cyan-400">Call Us</p>
           <p className="flex gap-2 items-center text-xl">
             <MdOutlineLocalPhone />
             9304969991, 9308799190

@@ -13,7 +13,7 @@ function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             {/* Company Info */}
             <div className="space-y-4">
-              <img src={logo} alt="" className="h-25" />
+              <img src={logo} alt="" className="h-45" />
               <h3 className="text-2xl font-bold text-cyan-400">
                 Advanced Computer Resources
               </h3>
@@ -72,6 +72,14 @@ function Footer() {
                     to="/services"
                     className="hover:text-cyan-400 transition-colors"
                   >
+                    Computer & Accessories
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/services"
+                    className="hover:text-cyan-400 transition-colors"
+                  >
                     Computer Repair
                   </Link>
                 </li>
@@ -80,7 +88,48 @@ function Footer() {
                     to="/services"
                     className="hover:text-cyan-400 transition-colors"
                   >
-                    Security Systems
+                    CCTV Installation & Sales
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/services"
+                    className="hover:text-cyan-400 transition-colors"
+                  >
+                    Solar Energy Solutions
+                  </Link>
+                </li>
+                
+                <li>
+                  <Link
+                    to="/services"
+                    className="hover:text-cyan-400 transition-colors"
+                  >
+                    Technical Consulting
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/services"
+                    className="hover:text-cyan-400 transition-colors"
+                  >
+                    LED Panel Sales
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/services"
+                    className="hover:text-cyan-400 transition-colors"
+                  >
+                    Projector Sales
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/services"
+                    className="hover:text-cyan-400 transition-colors"
+                  >
+                    Annual Maintenance
                   </Link>
                 </li>
                 <li>
@@ -89,14 +138,6 @@ function Footer() {
                     className="hover:text-cyan-400 transition-colors"
                   >
                     24/7 Support
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/services"
-                    className="hover:text-cyan-400 transition-colors"
-                  >
-                    Network Setup
                   </Link>
                 </li>
               </ul>
@@ -113,12 +154,15 @@ function Footer() {
                   New Alkapuri Dibdhi Bypass Road,
                   <br />
                   Ranchi-834001 - Jharkhand
-
                 </p>
-                <p className="flex gap-2 items-center justify-center"><MdOutlineMailOutline />
-                                    acrranchi@gmail.com</p>
-                <p className="flex gap-2 items-center justify-center"><MdOutlineLocalPhone />
-                                    9304969991, 9308799190</p>
+                <p className="flex gap-2 items-center justify-center">
+                  <MdOutlineMailOutline />
+                  acrranchi@gmail.com
+                </p>
+                <p className="flex gap-2 items-center justify-center">
+                  <MdOutlineLocalPhone />
+                  9304969991, 9308799190
+                </p>
               </address>
             </div>
           </div>
@@ -130,14 +174,29 @@ function Footer() {
               rights reserved.
             </p>
             <div className="mt-2 flex justify-center space-x-4">
-              <a href="#" className="hover:text-cyan-400 hover:rotate-5 duration-300 transition-colors">
+              <a
+                href="#"
+                className="hover:text-cyan-400 hover:rotate-5 duration-300 transition-colors"
+              >
                 Privacy Policy
               </a>
-              <a href="#" className="hover:text-cyan-400 hover:rotate-5 duration-300 transition-colors">
+              <a
+                href="#"
+                className="hover:text-cyan-400 hover:rotate-5 duration-300 transition-colors"
+              >
                 Terms of Service
               </a>
-              <a target="_blank" href="https://maps.app.goo.gl/DPuXbKX9XmPJ2WfP8" className="hover:text-cyan-400 hover:rotate-5 duration-300 transition-colors">
+              <a
+                target="_blank"
+                href="https://maps.app.goo.gl/DPuXbKX9XmPJ2WfP8"
+                className="hover:text-cyan-400 hover:rotate-5 duration-300 transition-colors"
+              >
                 Sitemap
+              </a>
+            </div>
+            <div className="mt-2 flex justify-center space-x-4">
+              <a target="_blank" className="hover:text-cyan-400 hover:rotate-5 duration-300 transition-colors" href="https://matrix9339.github.io/Portfolio/">
+                <p>Designed by - Himanshu Singh</p>
               </a>
             </div>
           </div>
